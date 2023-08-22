@@ -4,11 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   </head>
   <body>
-    <h1>Hello World!!</h1>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg shadow-sm">
+      <div class="container">
+        <a class="navbar-brand h1 mb-0 text-primary" href="#home">IRVAN</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#client">Client</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <div class="container">
+      <!-- Section Home Start -->
+      <section id="home" class="mb-5 mt-5 pt-5 pb-5">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h4 class="text-primary">Halo Semua 👋, Saya</h4>
+            <h1>Irvan</h1>
+            <h4>
+              <span class="text-secondary">Web &</span> Mobile Programming
+            </h4>
+            <p>
+              <span class="text-secondary"
+                >Belajar pemrogramman web itu menyenangkan bukan?</span
+              ><br />
+              <strong>Bukan</strong>
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="position-relative">
+              <img
+                src="assets/image/irvan.png"
+                alt="irvan"
+                class="position-absolute img-fluid"
+                style="z-index: 1"
+              />
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill="#FF0066"
+                  d="M52.9,-71C67.6,-62.2,77.9,-45.4,80.8,-28.2C83.7,-11,79.4,6.7,70.4,19.3C61.4,31.9,47.7,39.4,35.2,48.7C22.7,58.1,11.4,69.3,0.7,68.4C-10,67.4,-19.9,54.3,-35.5,45.9C-51.1,37.6,-72.3,34,-82.8,22.1C-93.4,10.2,-93.3,-10.1,-82.6,-21.9C-71.9,-33.7,-50.7,-37.2,-35.2,-45.7C-19.7,-54.2,-9.8,-67.8,4.6,-74.2C19.1,-80.6,38.3,-79.8,52.9,-71Z"
+                  transform="translate(100 100)"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Home End -->
+
+      <!-- Section About Start -->
+      <section id="about" class="bg-warning" style="height: 500px"></section>
+      <!-- Section About End -->
+
+      <!-- Section Portofolio Start -->
+      <section
+        id="portofolio"
+        class="bg-danger"
+        style="height: 500px"
+      ></section>
+      <!-- Section Portofolio End -->
+
+      <!-- Section Project Start -->
+      <section id="project" class="bg-info" style="height: 500px"></section>
+      <!-- Section Project End -->
+
+      <!-- Section Client Start -->
+      <section id="client" class="bg-success" style="height: 500px"></section>
+      <!-- Section Client End -->
+
+      <!-- Section Contact Start -->
+      <section id="contact" class="bg-dark" style="height: 500px"></section>
+      <!-- Section Contact End -->
+    </div>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
